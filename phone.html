@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plivo Dialter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="vendors/jquery-mobile/themes/my-jqm-theme.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+
+    <div data-role="header" data-theme="b">
+        <h1>Phone</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" data-theme="b">
+        <div id="sms-form-container">
+            <form action="active_call.html">
+            <div data-role="fieldcontain" class="ui-hide-label">
+                <label for="phone-number">Phone number:</label>
+                <input type="tel" required="true" name="phone-number" id="phone-number" value=""/>
+            </div>
+            <div class="ui-grid-b">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"><input type="submit" name="Submit" value="Call"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+            </form>
+        </div>
+    </div>
+    <!-- /content -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="phone.html" class="ui-btn-active ui-state-persist">Phone</a></li>
+                <li><a href="sms_list.html">SMS</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+</body>
+</html>

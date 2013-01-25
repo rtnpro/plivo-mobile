@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plivo Dialter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="vendors/jquery-mobile/themes/my-jqm-theme.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+
+    <div data-role="header" data-theme="b">
+        <h1>Plivo</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" data-theme="b">
+        <form id="login" action="phone.html">
+            <div data-role="fieldcontain" class="ui-hide-label">
+                <label for="username">Username:</label>
+                <input type="text" required="true" name="username" id="username" value="" placeholder="Username"/>
+            </div>
+            <div data-role="fieldcontain" class="ui-hide-label">
+                <label for="password">Password:</label>
+                <input type="password" required="true" name="password" id="password" value="" placeholder="Password"/>
+            </div>
+            <input type="submit" name="submit" value="Login" data-theme="b"/>
+        </form>
+    </div><!-- /content -->
+
+</div><!-- /page -->
+</body>
+</html>
