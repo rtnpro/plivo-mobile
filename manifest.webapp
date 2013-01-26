@@ -1,0 +1,13 @@
+{
+  "name": "Plivo mobile",
+  "description": "A phone app based on Plivo API.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Ratnadeep Debnath",
+    "url": "https://github.com/rtnpro/plivo-mobile"
+  },
+  "default_locale": "en"
+}
